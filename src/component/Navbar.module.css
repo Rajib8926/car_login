@@ -1,0 +1,43 @@
+.nav {
+  width: 94vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 7px 30px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.itemAndSearch ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+.itemAndSearch li {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.unActive {
+  color: rgb(173, 172, 172);
+}
+.active {
+  color: black;
+}
+.itemAndSearch .inputSearch {
+  width: 400px;
+  height: 32px;
+  border-radius: 20px;
+  background: rgba(161, 161, 161, 0.185);
+  border: none;
+  outline: none;
+  padding: 0 15px;
+}
+.button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  background: rgba(60, 255, 0, 0.356);
+  cursor: pointer;
+}
