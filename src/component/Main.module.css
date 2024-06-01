@@ -27,12 +27,13 @@
   font-weight: 400;
   padding: 0 90px;
   display: flex;
+  position: relative;
 }
 .circleCon {
   display: flex;
-  position: relative;
-  transform: translate(-170px, 180px);
-  bottom: 2px;
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
 }
 .circle1 {
   width: 30px;
@@ -108,6 +109,7 @@
   background-image: url(redCar.jpg);
   background-size: cover;
   margin: 10px 0 0 0;
+  height: 90vh;
 }
 .loginBox {
   display: flex;

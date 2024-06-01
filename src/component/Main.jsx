@@ -11,7 +11,7 @@ function Main() {
               <div className={styles.circleCon}>
                 <div className={styles.circle1}></div>
                 <div className={styles.circle2}></div>
-                <div className={styles.circle2}></div>{" "}
+                <div className={styles.circle2}></div>
               </div>
             </h1>
           </div>
